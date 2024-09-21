@@ -4,10 +4,10 @@ on:
     branches: 
       - main
 
-  ##paths-ignore: 
-  #    - 'README.md'
-  #    - 'K8s/**'
-  #    - 'helm/**'
+    paths-ignore: 
+      - 'README.md'
+      - 'K8s/**'
+      - 'helm/**'
 
 jobs: 
 
